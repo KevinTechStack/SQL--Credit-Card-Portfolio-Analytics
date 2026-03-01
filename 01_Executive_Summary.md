@@ -12,7 +12,7 @@
 
 ### Step 1: Synthetic Data Generation (Python)
 - **Why synthetic?** Privacy compliance (no real PII), realistic patterns
-- **What we built**: 7 interconnected tables with realistic patterns
+- **What was built**: 7 interconnected tables with realistic patterns
 - **50K customers** across 7 different countries
 - **Merchant categories**: Shopping, Groceries, Dining, Electronics, Fuel, Travel
 - **Channels**: Online (68% spend), POS, ATM
@@ -24,7 +24,7 @@
   - Income-correlated credit limits
 
 ### Step 2: Database Design (PostgreSQL)
-- Normalized schema (3NF) with 7 tables, referential integrity
+- Normalized schema with 7 tables, referential integrity
 - Currency standardization (all amounts converted to USD for analysis)
 - Proper indexing on foreign keys for query performance
 
