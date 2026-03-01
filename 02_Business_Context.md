@@ -16,7 +16,7 @@ This project builds a **Portfolio Intelligence System** to enable data-driven de
 | **Total Spend (USD)** | **$508.31M** |
 | **Avg Monthly Spend (USD)** | **$21.18M** |
 | **Time Window** | Jan 2024 → Dec 2025 |
-| **Fraud Rate (overall)** | **0.42%** |
+| **Fraud Rate (overall)** | **0.25%** |
 | **Geographies** | India, UAE, UK, Europe, Turkey, Qatar |
 
 > Multi-card ownership is intentional and reflects real portfolio design (product stacking, co-branded cards, premium upgrades).
