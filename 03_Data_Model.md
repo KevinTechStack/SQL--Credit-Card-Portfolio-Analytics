@@ -83,5 +83,4 @@ The script generates a portfolio with:
 ---
 
 **[Next: Business Insights Report →](04_Business_Insights_Report.md)**
-## Key Relationships (cardinality)
 
