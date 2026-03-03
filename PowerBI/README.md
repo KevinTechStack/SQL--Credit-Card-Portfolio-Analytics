@@ -8,7 +8,7 @@
 2. Open in **Power BI Desktop**
 3. Use the page tabs to navigate across the 5 dashboard pages
 
-> Note: `.pbix` is a binary file. GitHub won’t preview it—open the file and click **Download** (or **Raw**) to get the PBIX.
+> Note: `.pbix` is a binary file. GitHub won’t preview it—open the file and click **Download** (or **Raw**) to get the PBIX
 
 ---
 
