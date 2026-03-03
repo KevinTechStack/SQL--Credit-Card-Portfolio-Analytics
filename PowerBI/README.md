@@ -4,7 +4,7 @@
 ---
 
 ## How to open
-1. Download `powerbi/credit_card_portfolio.pbix`
+1. Download PowerBI/CC_PORTFOLIO_ANALYSIS_new.pbix from PowerBI/
 2. Open in **Power BI Desktop**
 3. Use the page tabs to navigate across the 5 dashboard pages
 
@@ -29,11 +29,11 @@
 
 ## Refresh / reproducibility
 To reproduce the dataset:
-- Generate synthetic data using `python/data_generation.py`
+- Generate synthetic data using [`python/data_generation/`](python/data_generation/)
 - Load into PostgreSQL
 - Execute:
-  - `sql/01_schema.sql`
-  - `sql/02_sanity_checks.sql`
-  - `sql/03_analysis_queries.sql`
+  - [`sql/01_schema.sql`](sql/01_schema.sql)
+  - [`sql/02_sanity_checks.sql`](sql/02_sanity_checks.sql)
+  - [`sql/03_analysis_queries.sql`](sql/03_analysis_queries.sql)
 - Refresh Power BI model and validate KPI alignment (Total Spend, Fraud Rate, Pareto %)
 
