@@ -36,7 +36,7 @@
 - **What was built**: 7 interconnected tables with realistic patterns.
 - **10,000 unique customers** across 7 countries, with **51,598 cards** issued.
 - **Merchant categories**: Shopping, Groceries, Dining, Electronics, Fuel, Travel.
-- **Channels**: Online, POS, ATM.
+- **Channels**: Online, Offline.
 - **Realism**: weekend spend bias, seasonal patterns, fraud injection (portfolio-level fraud rate aligns to outputs).
 - **Realism features**:
   - Geographic spend patterns (INR dominant in India, AED in UAE, etc.)
