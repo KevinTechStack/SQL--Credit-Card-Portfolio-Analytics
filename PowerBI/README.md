@@ -32,8 +32,8 @@ To reproduce the dataset:
 - Generate synthetic data using [python/data_generation/](../python/data_generation/)
 - Load into PostgreSQL
 - Execute:
-  - [`sql/01_schema.sql`](sql/01_schema.sql)
-  - [`sql/02_sanity_checks.sql`](sql/02_sanity_checks.sql)
-  - [`sql/03_analysis_queries.sql`](sql/03_analysis_queries.sql)
+  - [`sql/01_schema.sql`](../sql/01_schema.sql)
+  - [`sql/02_sanity_checks.sql`](../sql/02_sanity_checks.sql)
+  - [`sql/03_analysis_queries.sql`](../sql/03_analysis_queries.sql)
 - Refresh Power BI model and validate KPI alignment (Total Spend, Fraud Rate, Pareto %)
 
