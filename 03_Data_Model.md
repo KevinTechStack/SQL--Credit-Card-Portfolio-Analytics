@@ -1,6 +1,6 @@
 # Data Model
 
-## Synthetic Data → Relational Schema → Analytics Layer
+## Synthetic Data → Relational Schema → Analytics Layer → Visualization Layer
 
 ---
 
@@ -23,7 +23,7 @@ The script generates a portfolio with:
 - Dormant card-months (realistic inactivity)
 - Income-correlated credit limits
 
-**Python file**: `python/data_generation.py`
+**Python file**: [`python/data_generation.py`](python/data_generation.py)
 
 ---
 ## 2) Relational Schema
@@ -87,15 +87,34 @@ SQL creates summary tables used directly in Power BI:
 - Rewards effectiveness (reward-to-spend ratio)
 - Profitability model + bands
 
-SQL location: `sql/03_analysis_queries.sql`
+SQL location: [`sql`](sql.sql)
 
 ---
+## Visualization Layer (Power BI)
 
+This project uses Power BI as the visualization layer on top of the SQL analytics outputs.
+
+### How Power BI is powered
+- Summary tables are **created in SQL** (CTAS) inside PostgreSQL (for example: segment, category, channel, weekend, fraud, profitability, and Pareto outputs).
+- These SQL output tables are then **imported into Power BI** to build the 5-page dashboard and ensure the visuals are driven by validated summary tables (not raw transactions).
+
+### Power BI artifact
+- Dashboard file: [`powerbi/credit_card_portfolio.pbix`](powerbi/credit_card_portfolio.pbix)
+
+### Screenshot references
+Screenshots used across documentation are stored in `images/`:
+- [`Portfolio_Overview_page_1.png`](images/Portfolio_Overview_page_1.png)
+- [`Spend_and_Channels_page_2.png`](images/Spend_and_Channels_page_2.png)
+- [`Rewards_and_Profitability_page_3.png`](images/Rewards_and_Profitability_page_3.png)
+- [`Fraud_and_Risk_page_4.png`](images/Fraud_and_Risk_page_4.png)
+- [`Segments_and_Customers_page_5.png`](images/Segments_and_Customers_page_5.png)
+  
 ## Implementation Files
-- Schema: `sql/01_schema.sql`
-- Quality checks: `sql/02_sanity_checks.sql`
-- Analysis: `sql/03_analysis_queries.sql`
-
+- **Schema**: [`sql/01_schema.sql`](sql/01_schema.sql)
+- **Quality checks**: [`sql/02_sanity_checks.sql`](sql/02_sanity_checks.sql)
+- **Analysis**: [`sql/03_analysis_queries.sql`](sql/03_analysis_queries.sql)
+- Power BI:  [`powerbi/credit_card_portfolio.pbix`](powerbi/credit_card_portfolio.pbix)
 ---
+
 **[Next: Business Insights Report →](04_Business_Insights_Report.md)**
 
