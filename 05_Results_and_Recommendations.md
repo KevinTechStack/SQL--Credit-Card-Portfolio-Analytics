@@ -63,41 +63,42 @@
 ## Recommendations (What to do next)
 
 ### 1) Revenue growth: focus on the biggest levers
-- Prioritize merchant partnerships and offer design around **Groceries, Shopping, Fuel** first (largest spend pools), and use **Electronics/Dining** for targeted incremental uplift.
-- Treat online as the primary revenue channel (online value dominates); ensure digital purchase journeys remain friction-light for good customers.
-- Run campaign around the observed **weekend-heavy spend** pattern (Fri–Sun), with weekday activity used for reminders/activation rather than main budget allocation.
+- Focus merchant partnerships and new offers first on **Groceries, Shopping, and Fuel** (these are the largest spend categories). Use **Electronics** and **Dining** for targeted campaigns to drive additional, incremental spend.
+- Treat online as the main growth channel (online spend is much higher). Keep the digital purchase flow smooth for genuine customers so you don’t lose transactions due to friction.
+- Plan major campaigns around the **weekend-heavy spend pattern** (Fri–Sun). Use weekdays mainly for lighter-touch reminders and activation, instead of spending the full budget then.
 
 ### 2) Segment-led strategy (avoid one-size-fits-all)
-- **Mass Market** (largest spend pool): run scalable value offers in top categories, ensure stable digital experience, and apply stronger monitoring for high-value fraud exposure.
-- **Emerging Affluent** (high spend per customer): focus on retention + upgrades (tier benefits, premium bundles) and protect experience from unnecessary declines/friction.
-- **Low Value** (highest fraud share): Use simple, low-cost messages to engage these customers and get them to use the card more, and rely mainly on automated fraud checks because fraud happens more often in this group and manual effort is costly.
-- 
+| Segment | What the data says | Action |
+|--------|---------------------|--------|
+| Emerging Affluent | High spend per customer | Prioritize retention and upsell, offer tier benefits and premium bundles, and avoid unnecessary declines or extra steps that hurt experience |
+| Mass Market | Largest base and spend engine | Run scalable offers in top categories, build strong merchant partnerships, **maintain a stable digital experience**, and monitor higher-value fraud exposure closely |
+| Low Value | Lowest spend segment + highest fraud share | Use simple, low-cost messaging to increase usage, and rely mainly on automated fraud checks to manage cost-to-serve |
+
 ### 3) Fraud & risk: separate frequency controls from severity controls
-- For **frequency-heavy** fraud pockets (high counts, especially everyday categories):
-  - Use automated controls (velocity checks, merchant/category rules, device/IP signals, low-friction step-ups).
-- For **severity-heavy** exposure (higher fraud value in Mass Market):
-  - Apply risk-based authentication on high-value attempts and stronger monitoring for anomalous patterns.
-- Adjust the fraud checks so you reduce fraud without creating extra steps or unnecessary declines for your highest-spending customers.
+- For **frequency-heavy** fraud areas (where fraud happens often): use automated controls like velocity checks, merchant/category rules, device/IP risk signals, and low-friction step-ups.
+- For **severity-heavy** exposure (where the loss per event is higher, such as high-value activity): use stronger monitoring for unusual patterns and apply risk-based authentication on higher-value attempts.
+- Operating principle: reduce fraud while avoiding extra steps or unnecessary declines for your highest-spending customers.
 
 ### 4) Rewards optimization: fix the biggest cost driver without hurting retention
-- Start with cashback since it is the largest redemption volume driver; review whether cashback is being over-earned in low-spend customers.
-- Introduce a value-based rewards structure:
-  - Tie benefits by customer value/profit band.
-  - Add spend thresholds for premium benefits.
-  - Cap extreme reward-to-spend outliers.
-- Protect the **High** and strong **Mid** profit bands while addressing leakage in low-spend or loss-making customers.
+- Start with cashback since it is the biggest redemption driver. Check whether low-spend customers are earning cashback at a level that is not economically justified.
+- Move to a value-based rewards structure:
+  - Link benefits to customer value/profit band.
+  - Use spend thresholds (“value gates”) to unlock premium benefits.
+  - Put caps on extreme reward-to-spend outliers.
+- Track the **reward-to-spend ratio** to spot potential loss-making behavior early.
+- Protect the **High** and strong **Mid** profit bands, while reducing leakage from low-spend or loss-making customers.
 
 ### 5) Profitability management: defend what produces profit
-- Focus retention and service quality on **Mid (100–1k)** and **High (1k–10k)** profit bands because they contribute the majority of profit.
+- Concentrate retention and service quality efforts on **Mid (100–1k)** and **High (1k–10k)** profit bands, since they generate most of the profit.
 - For the **Loss** cohort (0.3K customers, -$0.02M profit):
-  - Identify drivers (reward leakage, fraud exposure, servicing cost) and apply targeted restrictions or redesign rather than broad cuts.
+  - Identify the main drivers (reward leakage, fraud exposure, servicing costs) and apply targeted fixes or restrictions, instead of broad cuts across the portfolio.
 
 ### 6) Monitoring and governance (what to track weekly/monthly)
-- Revenue: category-level spend, online vs offline spend mix, weekend uplift.
-- Customer: segment migration, retention of top spend cohorts, activation of Low Value.
-- Risk: fraud counts and value by segment/category/channel; false positive rate if you implement stricter controls.
-- Rewards: redemption mix and reward-to-spend outliers.
-- Profit: customer count and profit by band; movement into/out of Loss band.
+- Revenue: spend by category, online vs offline mix, weekend uplift.
+- Customer: segment movement over time, retention of top spend cohorts, activation of Low Value customers.
+- Risk: fraud counts and fraud value by segment/category/channel; false-positive rate after control changes.
+- Rewards: redemption mix, reward-to-spend outliers, reward-to-spend ratio trend by segment/profit band.
+- Profit: customers and profit by band; movement into and out of the Loss band.
 
 ---
 
