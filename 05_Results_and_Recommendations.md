@@ -118,4 +118,4 @@
 
 ---
 
-**Next: Next Steps →**
+**Next: Next Steps →** [Open](06_Next_Steps.md)
