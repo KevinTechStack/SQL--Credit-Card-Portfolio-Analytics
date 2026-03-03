@@ -29,7 +29,7 @@
 
 ## Refresh / reproducibility
 To reproduce the dataset:
-- Generate synthetic data using [python/data_generation/](python/data_generation/)
+- Generate synthetic data using [python/data_generation/](../python/data_generation/)
 - Load into PostgreSQL
 - Execute:
   - [`sql/01_schema.sql`](sql/01_schema.sql)
