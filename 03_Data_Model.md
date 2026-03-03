@@ -99,7 +99,7 @@ This project uses Power BI as the visualization layer on top of the SQL analytic
 - These SQL output tables are then **imported into Power BI** to build the 5-page dashboard and ensure the visuals are driven by validated summary tables (not raw transactions).
 
 ### Power BI artifact
-- Dashboard file: [`powerbi/credit_card_portfolio.pbix`](powerbi/credit_card_portfolio.pbix)
+- Dashboard file: [`PowerBI/CC_PORTFOLIO_ANALYSIS_new.pbix`](PowerBI/CC_PORTFOLIO_ANALYSIS_new.pbix)
 
 ### Screenshot references
 Screenshots used across documentation are stored in `images/`:
@@ -113,7 +113,7 @@ Screenshots used across documentation are stored in `images/`:
 - **Schema**: [`sql/01_schema.sql`](sql/01_schema.sql)
 - **Quality checks**: [`sql/02_sanity_checks.sql`](sql/02_sanity_checks.sql)
 - **Analysis**: [`sql/03_analysis_queries.sql`](sql/03_analysis_queries.sql)
-- Power BI:  [`powerbi/credit_card_portfolio.pbix`](powerbi/credit_card_portfolio.pbix)
+- Power BI: [`PowerBI/CC_PORTFOLIO_ANALYSIS_new.pbix`](PowerBI/CC_PORTFOLIO_ANALYSIS_new.pbix)
 ---
 
 **[Next: Business Insights Report →](04_Business_Insights_Report.md)**
