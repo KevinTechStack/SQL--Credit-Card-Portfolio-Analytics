@@ -1,4 +1,4 @@
-# SQL--Credit-Card-Portfolio-Analytics
+# SQL-Credit-Card-Portfolio-Analytics
 End-to-end Python + SQL + Power BI case study analyzing credit card portfolio: spend behavior, fraud risk, rewards, profitability
 
 ![Python](https://img.shields.io/badge/Python-Synthetic%20Data-3776AB?style=flat&logo=python&logoColor=white)
